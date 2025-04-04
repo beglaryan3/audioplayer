@@ -262,6 +262,7 @@ favoriteAudioBtn.addEventListener("click", function () {
             loadAudio(newIndex)
             playAudio()
             audioContainer.classList.remove("show")
+            audioIndex=newIndex
         })
     })
 })
